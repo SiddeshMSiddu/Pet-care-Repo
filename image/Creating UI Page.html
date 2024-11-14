@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/Home.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating UI Page</title>
+    
+    
+
+    <style>
+        
+
+    </style>
+
+<link rel="stylesheet" href="./Creating UI Page_files/style.css"><link rel="icon" type="image" href="http://127.0.0.1:5500/image/1984135.png"></head>
+<body bgcolor="#2b2738">
+    <div class="HomeDiv" style="
+    height: 98vh;
+">
+        <div class="HomeinnerDiv1">
+           <nav style="display: flex; justify-content:space-between ;">
+            <img src="./Creating UI Page_files/apple-emblem-removebg-preview.png" width="25px" style="margin: 5px;">
+            <button id="WebsiteButton"><a href="https://www.w3schools.com/charsets/ref_utf_arrows.asp">Back to website →</a></button>    
+        </nav>
+        <pre style="font-family: Arial, Helvetica, sans-serif;color: white;font-size: 13px;text-align: center;margin-top: 40%;">Capturing Moments,
+Creating Memories
+        </pre>
+           
+        </div>
+        <div class="HomeinnerDiv2">
+            <h4 style="color: white;font-family:  sans-serif; margin-bottom: 10px;">Create an acccount</h4>
+            <p style="color: rgb(138, 136, 136);font-family:  sans-serif;font-size:8px; margin-bottom:15px ;">Already have an account? <a href="https://www.google.co.in/" style="font-family:Arial,sans-serif; color: #8a7bb6; font-size: 8px">Log in</a></p>
+            <form style="
+    text-align: center;
+">
+                <input type="text" placeholder="First name" style="font-size: 7px; width: 40%;padding: 5px; ">
+                <input type="text" placeholder="First name" style="font-size: 7px; width: 40%;padding: 5px;">
+                <input type="email" placeholder="Email" style="font-size: 7px;width:87%;padding: 5px;"><br>
+                <input type="password" placeholder="Enter your password" style="font-size: 7px;width:87%;padding: 5px;"><br>
+                <div style="display: flex;align-items: center;">
+                    <input type="checkbox" id="check" style="width: 8px;">
+                    <label for="check" style="color: white;font-size:8%;font-family: Arial,sans-serif;">I agree to the </label><a href="http://127.0.0.1:5500/Home.html" style="color:#8a7bb6; font-size:8%;margin-left:1%;">Terms &amp; Conditions</a><br>
+                    <br>
+                </div>
+                <button id="Createaccount">Create account</button>
+                <div class="firstDiv" style="
+    /* width: 100%; */
+">
+                    <p style="width:auto;margin:0;color: rgb(255, 255, 255);">________</p>
+                    <p style="width:auto;margin:0;margin-top: 12px;color: white;font-size: 10px;margin-left: 5px;margin-right: 5px;"> Or register with</p>
+                    <p style="margin: 0;width: auto;color: white;">________</p>
+                </div>
+                <button id="Googleapple"><img src="./Creating UI Page_files/Google-Symbol-removebg-preview.png" alt=" google logo" width="12px"> <a href="https://www.google.co.in/" style="font-size:10px; text-decoration: none; color: white;">Google</a></button>
+                <button id="Googleapple"><img src="./Creating UI Page_files/apple-emblem-removebg-preview.png" alt=" google logo" width="12px"> <a href="https://www.apple.com/in/" style="font-size:10px; text-decoration: none; color: white;">Apple</a></button>
+            </form>
+        </div>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

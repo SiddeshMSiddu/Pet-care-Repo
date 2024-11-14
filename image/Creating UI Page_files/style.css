@@ -1,0 +1,114 @@
+.HomeDiv{
+display: flex;
+/* border: 2px solid black; */
+}
+.HomeinnerDiv1{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    background-image: url(https://w0.peakpx.com/wallpaper/345/189/HD-wallpaper-forest-tall-trees-dark-leaves-nature.jpg);
+    width: 100%;
+    
+    border-radius: 3%;
+}
+.HomeinnerDiv2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    /* border: 2px solid rgb(255, 255, 255); */
+    /* padding: 10px; */
+    width: 50%;
+
+}
+input{
+    background-color: #3b364c;
+    border-color: none;
+    border-width: 0;
+    border-radius: 2px;
+    color: white;
+    outline: none;
+}
+input:hover{
+    border: 2px solid #766899;
+}
+#check{
+    width: 10px;
+   
+}
+#Createaccount{
+    width: 87%;
+    height: 15px;
+    border-radius: 2px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color:#6e54b5;
+    border-width: 0;
+    font-size: 8px;
+}
+#Googleapple{
+    background-color: #2b2738;
+    border: 1px solid rgb(104, 103, 103);
+    border-radius: 2px;
+    color: white;
+    width: 43%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Googleapple:hover{
+  background-color:#6f5da0;
+
+}
+#websitebutton{
+    display: flex;
+flex-direction: row;
+
+}
+#WebsiteButton{
+    border-radius: 25px;
+    border: 0;
+    font-size: 5px;
+    height: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: white;
+    background-color: rgb(106, 115, 121);
+}
+#WebsiteButton:hover{
+    background-color:#6f5da0; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.firstDiv {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#secondDiv {
+    display: none;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:800px) {
+ .HomeDiv{
+display: flex;
+flex-direction: column;
+ }
+ .HomeinnerDiv1{
+    display: none;
+ }
+ .HomeinnerDiv2{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+        width: 100%;
+        align-items: center;
+ }
+   
+    
+}

@@ -1,0 +1,144 @@
+.Homediv1{
+    background-color: #D6B89F;
+}
+.Homenav{
+    display: flex;
+    /* border: 2px dotted ; */
+    justify-content: space-between;
+    font-size: 15px;
+    /* margin-top: 20px; */
+    height:50px ;
+    align-items: center;
+}
+a{
+text-decoration: none;
+
+}
+.pontoclass{
+    padding-left:20px;
+    /* border: 2px solid; */
+     
+}
+.pontoclass>a{
+    color: #862D00; 
+}
+#navanchor{
+    margin-right: 10px;
+    color: #862D00;
+}
+#navanchor:hover{
+color: #501c02;
+
+}
+#navbutton{
+    outline: none;
+    border: none;
+    border-radius: 25px ;
+    background-color: transparent;
+    justify-content: center;
+    color:#862D00 ;
+}
+#navbuttonS{
+    outline: none;
+    border: none;
+    border-radius: 25px ;
+    background-color:#862D00;
+    justify-content: center;
+    color:white ; 
+}
+#navbutton:hover{
+    color: white;
+    background-color:#862D00 ;
+    
+}
+.serviceslid1{
+    text-align: center;
+    font-family: sans-serif;
+    color: #862D00;
+    width: 200;
+    margin: 0;
+    padding: 10px;
+}
+.serviceSlide2{
+    display: flex;
+    background-color: white;
+    /* border: 2px solid; */
+    font-family: sans-serif;
+    width: 75%;
+ margin: auto;
+ margin-bottom: 20px;
+ justify-content: space-between;
+}
+.serviceinnSlide1{
+    display: flex;
+    /* border: 2px dotted red; */
+    
+    color: #862D00;
+    padding-left: 10px;
+    background-color: white;
+}
+.serviceinnSlide2{
+    display: flex;
+    padding: 10px;
+    /* border: 2px dotted red; */
+    width: 50%;
+    justify-content:space-evenly ;
+    align-items: center;
+    height: 40px;
+    color: #862D00;
+    background-color: white;
+}
+#BookNow{
+    color: white;
+    background-color: #501c02;
+    border: none;
+    width:80px;
+    height: 20px;
+    border-radius: 25px;
+    font-size: 10px;
+}
+#BookNow:hover{
+    background-color: #b96f4a;
+    transition-duration: 1s;
+}
+#hrdoller{
+    font-size: 10px;
+    padding-top: 10px;
+}
+.footerdiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 30px;
+}
+#pgrfooter{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 15px;
+    color: #862D00;
+
+}
+#serviceanchor{
+    color: #862D00;
+}
+#serviceanchor:hover{
+    color: #995c3d;
+}
+@media (max-width:444px) {
+    .serviceslid1, .serviceSlide2 {
+        flex-direction: column;
+        
+    }
+}
+    
+@media (max-width:444px){
+    .serviceinnSlide1
+    {
+        flex-direction: column;
+        margin-bottom: 10px;
+        
+    }
+    
+}

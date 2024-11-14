@@ -1,0 +1,154 @@
+.HomeinnerDiv2{
+    
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid rgb(255, 255, 255); */
+        /* padding: 10px; */
+        text-align: center;
+        
+
+    
+    }
+    input{
+        background-color: #862D00;
+        border-color: none;
+        border-width: 0;
+        border-radius: 2px;
+        color: white;
+        outline: none;
+        height: 30px;
+        margin-bottom: 10px;
+        
+    }
+    input:hover{
+        border: 2px solid #501c02;
+    }
+    #check{
+        width: 10px;
+       
+    }
+    .checkBoxClass{
+        display: flex ;
+        align-items: center;
+        justify-content: center;
+      
+
+    }
+    .checkBoxClass>label{
+        color: #501c02;
+        font-size:10px;
+        font-family: Arial,sans-serif;
+    }
+    .checkBoxClass>a{
+        color:#501c02; 
+        font-size:10px;
+        margin-left:2px;
+    }
+    ::placeholder{
+        font-size: 10px;
+        color: #bd8e78;
+    }
+    #Createaccount{
+        width: 30%;
+        height: 30px;
+        border-radius: 5px;
+        border: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+        background-color:#862D00;
+        font-size: 10px;
+        text-align: center;
+    }
+    #Createaccount:hover{
+        background-color: #bd744f;
+    }
+  
+  
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .firstDiv {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center; 
+        justify-content: center;
+    }
+    .firstDiv>.paraclass1{
+        margin:0;
+        color: #501c02;
+    }
+    .firstDiv>.paraclass2{
+        margin:0;
+        margin-top: 12px;
+        color: #501c02;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .FLname{
+        font-size: 10px;
+        width: 50%;
+        padding: 5px; 
+        margin: 0%;
+        margin-bottom: 10px;
+        width: 30%;
+        
+    }
+    .EmPass{
+        font-size: 10px;
+        width:50%;
+        padding: 5px;
+        width: 30%;
+    }
+    .paraclass{
+        color: #862D00;
+    }
+    #Googleapple{
+        background-color: #862D00;
+        border: none;
+        border-radius: 5px;
+        width: 30%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    #Googleapple:hover{
+        background-color: #aa6848;
+    }
+    
+
+ 
+
+    
+    @media screen and (max-width:800px) {
+     .HomeDiv{
+    display: flex;
+    flex-direction: column;
+     }
+     .HomeinnerDiv1{
+        display: none;
+     }
+     .HomeinnerDiv2{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+            width: 100%;
+            align-items: center;
+     }
+     .firstDiv {
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+        width: 100%;
+       
+    }
+    .paraclass{
+        
+        display: flex;
+        width: auto;
+    }
+    
+       
+        
+    }

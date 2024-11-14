@@ -1,0 +1,236 @@
+    .Homediv1{
+    background-color: #D6B89F;
+}
+.Homenav{
+    display: flex;
+    /* border: 2px dotted ; */
+    justify-content: space-between;
+    font-size: 15px;
+    /* margin-top: 20px; */
+    height:50px ;
+    /* width: 100vw; */
+    /* align-items: center; */
+}
+a{
+text-decoration: none;
+
+}
+#navanchor{
+    margin-right: 10px;
+    color: #862D00;
+}
+#navanchor:hover{
+color: #501c02;
+
+}
+#navbutton{
+    
+    outline: none;
+    border: none;
+    border-radius: 25px ;
+    background-color: transparent;
+    justify-content: center;
+    color:#862D00 ;
+}
+#navbuttonH{
+    outline: none;
+    border: none;
+    border-radius: 25px ;
+    background-color:#862D00;
+    justify-content: center;
+    color:white ; 
+}
+.navbuttonclass{
+    padding-top: 15px;
+    display: flex;
+}
+.pontoclass{
+    padding-left:20px;
+    /* border: 2px solid; */
+     
+}
+.pontoclass>a{
+    color: #862D00; 
+}
+#navbutton:hover{
+    color: white ;
+    background-color:#862D00 ;
+    
+}
+#navbutton>a:hover{
+    color: white !important;
+    background-color:#862D00 !important;
+}
+.Homediv1>img{
+    position: absolute;
+            top: 130px;
+            right: 40px;
+            width: 300px;
+            height: 150px;
+}
+.Homediv1>p{
+    position: relative;
+    font-family: sans-serif;
+    margin: 0; 
+    left: 23px;
+    font-size: 13px; color: #862D00;
+}
+
+.Homediv2inn1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.Homediv2Img{
+    display: inline-flex;
+}
+.Homediv2Img>p{
+    font-family: sans-serif;font-size:12px;color:#862D00;
+    margin-right: 10px;
+}
+.Quotation{
+    width: 300px; 
+    position: relative;
+    left: 20px;
+    margin-bottom:0;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #862D00;
+}
+.Homediv2inn2{
+    display: flex;
+    justify-content: center;
+}
+.appointmentDiv{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#Appointmentbutton{
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #862D00;
+    color: white;
+    font-size: 9px;
+    width: 120px;
+    padding: 5px;
+}
+#Appointmentbutton:hover{
+    background-color: #501c02;
+    transition-duration: 2s;
+    
+}
+.Homeimage1{
+    /* width: auto; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.Homeimage1>img{
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100px;
+}
+.Homeimage1>img:hover{
+    width: 105px;
+}
+/* img:hover{
+    transition-behavior: normal;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: opacity;
+} */
+.Homesilde3{
+    display: flex;
+    flex-direction: column;
+    background-color: #D6B89F;
+    color:#862D00 ;
+    text-align: center;
+   margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 0;
+ 
+} 
+.profilediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    font-family: sans-serif; 
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 250px;
+    padding: 10px;
+}
+.Homeslide3inn1{
+    margin: auto;
+}
+.Homedicslide4{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #da792a;
+    margin-bottom: 20px;
+}
+#Followbutton{
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    width: 75px;
+    font-size: 10px;
+    color: #862D00;
+}
+#Followbutton:hover{
+    background-color: #D6B89F;
+    transition-duration: 1s;
+}
+
+.slide4indiv{
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+.slide4indiv>img{
+    width: 100px;
+    margin-right: 15px; 
+}
+.slide4indiv>img:hover{
+    width:103px
+}
+.footerdiv{
+    display: flex;
+    flex-direction: column;
+}
+#pgrfooter{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 15px;
+    color: #862D00;
+}
+
+
+@media (max-width: 560px) {
+    .profileDiv{
+        flex-direction: column;
+    }
+    
+}
+
+@media  (max-width:465px){
+    .slide4indiv, .Homeimage1, .slide4indiv>img, .Homeimage1>img{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+  
+    
+}
